@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Muli');
 
 
 $brand-purple: rgb(135,140,223);
 $brand-green: rgb(153,251,198);
 $font-size: 5rem;
-$merriweather: "Merriweather", sans-serif;
+$muli: "Muli", sans-serif;
 
 body {
   height: 100vh;
-  background: #eaeaea;
-  color: rgba(0, 0, 0, 0.87);
+  background: #4ACDAB;
+  color: #FFF;
   font-size: $font-size;
   font-weight: 900;
-  font-family: $merriweather;
+  font-family: $muli;
   padding: 0;
   margin: 0;
 }
@@ -22,7 +22,7 @@ body {
 	max-width: 75vw;
 	margin: 50px auto;
 	display: flex;
-	background-color: #FFF;
+	background-color: #EEAA7B;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -31,8 +31,8 @@ body {
 	.astronomy-title {
 		margin: 25px 0;
 		padding: 15px 45px;
-		font-size: 18px;
-		color: #6200ea;
+		font-size: 30px;
+		color: #FFF;
 	}
 
 	.astronomy-image-wrapper {
@@ -58,8 +58,8 @@ body {
 	}
 
 	span {
-		font-size: 10px;
-		color: #311b92;
+		font-size: 8px;
+		color: #FFF;
 		margin: 20px 0;
 	}
 }

@@ -7,7 +7,6 @@ const AstronomyCard = (props) => {
           hdurl,
           explanation,
           date,
-          service_version,
           media_type
         } = props.data;
 
@@ -43,7 +42,7 @@ const AstronomyCard = (props) => {
 
       <p>{explanation}</p>
 
-      <span>{date}, {service_version}</span>
+      <span>{date}</span>
     </div>
   )
 }
