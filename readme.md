@@ -17,5 +17,9 @@ yarn add react-redux redux
 ```
 
 ```
+yarn add redux-promise
+```
+
+```
 npm run start
 ```
