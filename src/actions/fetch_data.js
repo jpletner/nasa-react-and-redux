@@ -9,6 +9,6 @@ export default function fetchData() {
   return { // return plain object with props
     type: 'FETCH_DATA', // Action Type
     payload: request // Action Payload (cargo)
-  }
+  };
 
 }
