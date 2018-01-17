@@ -13,5 +13,9 @@ npm i axios
 ```
 
 ```
+yarn add react-redux redux
+```
+
+```
 npm run start
 ```
